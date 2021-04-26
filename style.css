@@ -1,0 +1,129 @@
+body {
+    margin: 0px;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    color: #ffce12;
+    height: 40px;
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+nav button:hover {
+    background-color: #ffdf5e;
+}
+
+.navhome {
+    background-color: #ffce12;
+    font-size: 16px;
+}
+
+.navhome a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropmenu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown {
+    background-color: #ffce12;
+    font-size: 16px;
+    height: 100%;
+}
+
+.dropcontent {
+    display: none;
+    position: absolute;
+    right: 0px;
+    min-width: 150px;
+    background-color: #ffce12;
+    box-shadow: 0px 0px 5px grey;
+    z-index: 2;
+}
+
+.dropcontent a {
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.dropcontent a:hover {
+    background-color: #ffdf5e;
+}
+
+.dropmenu:hover .dropcontent {
+    display: block;
+    z-index: 10;
+}
+
+
+
+
+h1 {
+    position: relative;
+    z-index: -1;
+    top: 20px;
+    margin-bottom: 20px;
+    width: 100vw;
+    text-align: center;
+    background-color: #ffce12;
+    box-shadow: 0px 0px 8px black;
+}
+
+.toolmenu {
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.ToolSelect {
+    display: inline-block;
+    width: 250px;
+    align-items: center;
+    margin:10px;
+}
+
+.toolcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+img {
+    border: solid 1px;
+    border-radius: 5%;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+
+}
+
+.ToolSelect a {
+    display: inline-block;
+    background-color: #ffce12;
+    border: solid 1px;
+    border-radius: 5%;
+    border-color: black;
+    color: black;
+    width: 120px;
+    text-align: center;
+    margin-left: 75px;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
