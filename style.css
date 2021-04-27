@@ -1,7 +1,8 @@
+
+
 body {
     margin: 0px;
-
-
+    background-image: linear-gradient(90deg, silver,white,silver);
 }
 
 nav {
@@ -22,7 +23,7 @@ nav button:hover {
 }
 
 .navhome {
-    background-color: #ffce12;
+    background-image:linear-gradient(0deg, #ffce12,#fceaa5, #ffce12);
     font-size: 16px;
 }
 
@@ -37,7 +38,7 @@ nav button:hover {
 }
 
 .dropdown {
-    background-color: #ffce12;
+    background-image:linear-gradient(0deg, #ffce12,#fceaa5, #ffce12);
     font-size: 16px;
     height: 100%;
 }
@@ -61,6 +62,7 @@ nav button:hover {
 
 .dropcontent a:hover {
     background-color: #ffdf5e;
+    transform:scale(1.02);
 }
 
 .dropmenu:hover .dropcontent {
@@ -104,19 +106,17 @@ h1 {
 }
 
 img {
-    border: solid 1px;
+    border: 1px solid #ffce12 ;
     border-radius: 5%;
     height: 250px;
     width: 250px;
-    padding: 10px;
+    
 
 }
 
-.ToolSelect a {
+.ToolSelectbtn{
     display: inline-block;
-    background-color: #ffce12;
-    border: solid 1px;
-    border-radius: 5%;
+    background-image:linear-gradient(0deg, #ffce12,#fceaa5, #ffce12);
     border-color: black;
     color: black;
     width: 120px;
@@ -124,6 +124,11 @@ img {
     margin-left: 75px;
 }
 
-a:hover {
-    transform: scale(1.1);
+.ToolSelectbtn:hover {
+    transform: scale(1.05);
+}
+
+.ToolSelect a{
+    text-decoration: none;
+    color:black;
 }
