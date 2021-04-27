@@ -3,7 +3,7 @@
 body {
     margin: 0px;
     background-image: linear-gradient(90deg, silver,white,silver);
-    width:100%;
+    width:100vw;
 }
 
 nav {
@@ -122,6 +122,10 @@ img {
 }
 .toolinfocontainer {
     margin:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
