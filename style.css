@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0px;
@@ -134,11 +136,15 @@ img {
     .toolinfocontainer {
         margin:10px;
         display:block;
-        width:40%;
+        width:60%;
         margin:auto;
     }
 }
 
+.toolinfoheader {
+    padding-top:20px;
+    
+}
 
 .toolmenu {
     display:flex;
@@ -163,10 +169,11 @@ img {
     display: inline-block;
     background-image:linear-gradient(0deg, #ffce12,#fceaa5, #ffce12);
     border-color: black;
+    padding:0px;
     color: black;
-    width: 120px;
+    width:max-content;
     text-align: center;
-    margin-left: 75px;
+    margin-left:25%;
 }
 
 .ToolSelectbtn:hover {
@@ -174,6 +181,9 @@ img {
 }
 
 .ToolSelect a{
+    margin:0px;
+    padding-left:35px;
+    padding-right:35px;
     text-decoration: none;
     color:black;
 }
