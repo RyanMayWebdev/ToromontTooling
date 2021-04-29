@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -6,6 +8,7 @@ body {
     margin: 0px;
     background-image: linear-gradient(90deg, silver,white,silver);
     width:100vw;
+    font-family: 'Lemonada', cursive;
 }
 
 nav {
@@ -21,18 +24,18 @@ nav {
     right: 0px;
 }
 
-nav button:hover {
-    background-color: #ffdf5e;
-}
 
 .navhome {
     background-image:linear-gradient(0deg, #ffce12,#fceaa5, #ffce12);
     font-size: 16px;
+    padding:0px;
 }
 
 .navhome a {
     text-decoration: none;
     color: black;
+    padding:25px;
+    font-family: 'Lemonada', cursive;
 }
 
 .dropmenu {
@@ -43,7 +46,11 @@ nav button:hover {
 .dropdown {
     background-image:linear-gradient(0deg, #ffce12,#fceaa5, #ffce12);
     font-size: 16px;
+    font-family: 'Lemonada', cursive;
     height: 100%;
+    padding-left:25px;
+    padding-right: 25px;
+    
 }
 
 .dropcontent {
@@ -85,6 +92,8 @@ h1 {
     text-align: center;
     background-color: #ffce12;
     box-shadow: 0px 0px 8px black;
+    padding-top:5px;
+    padding-bottom: 5px;
 }
 
 h3 {
@@ -96,6 +105,8 @@ h4 {
     box-shadow: 0px 0px 8px black;
     width:100%;
     text-align: center;
+    padding-top:5px;
+    padding-bottom: 5px;
 }
 
 h5 {
@@ -160,8 +171,8 @@ img {
 .ToolSelect {
     display: inline-block;
     width: 250px;
-    align-items: center;
     margin:10px;
+    text-align: center;
 }
 
 
@@ -171,9 +182,9 @@ img {
     border-color: black;
     padding:0px;
     color: black;
-    width:max-content;
+    width:160px;
     text-align: center;
-    margin-left:25%;
+    font-family: 'Lemonada', cursive;
 }
 
 .ToolSelectbtn:hover {
@@ -181,9 +192,9 @@ img {
 }
 
 .ToolSelect a{
+    display:inline-block;
+    width:100%;
     margin:0px;
-    padding-left:35px;
-    padding-right:35px;
     text-decoration: none;
     color:black;
 }
