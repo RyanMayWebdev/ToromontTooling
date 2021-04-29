@@ -81,7 +81,9 @@ nav {
 }
 
 
-
+.footer {
+    text-align: center;
+}
 
 h1 {
     position: relative;
